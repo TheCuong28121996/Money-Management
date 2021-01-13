@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    android:padding="8dp"
-    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    android:padding="8dp" >
+
+    <com.money.management.widget.ItemInfo
+        android:id="@+id/item_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon_left="@drawable/ic_baseline_dark_mode_24"
+        app:text_title="Chế độ tối"
+        app:icon_right_visibility="visible"/>
+</RelativeLayout>

@@ -29,5 +29,13 @@
         <item name="colorOnPrimary">@color/black</item>
     </style>
 
-
+    <declare-styleable name="item_info_attributes">
+        <attr name="icon_left" format="integer" />
+        <attr name="text_title" format="string" />
+        <attr name="icon_right_visibility" format="enum">
+            <enum name="gone" value="0x00000008"/>
+            <enum name="visible" value="0x00000000"/>
+            <enum name="invisible" value="0x00000004"/>
+        </attr>
+    </declare-styleable>
 </resources>

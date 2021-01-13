@@ -59,6 +59,6 @@ dependencies {
     def datastore_version = "1.0.0-alpha05"
     implementation "androidx.datastore:datastore-preferences:$datastore_version"
 
-    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
 
 }
